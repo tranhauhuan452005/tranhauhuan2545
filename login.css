@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Sử dụng phông chữ đã chọn */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Màu nền nhạt */
+}
+
+.sign_up {
+    background-color: #fff; /* Nền trắng cho form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Hiệu ứng đổ bóng nhẹ */
+    text-align: center; /* Căn giữa nội dung */
+    width: 350px; /* Độ rộng cố định */
+}
+
+.login-img img {
+    width: 100px; /* Điều chỉnh kích thước logo */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và input */
+}
+
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff; /* Màu xanh dương */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.9; /* Hiệu ứng khi rê chuột */
+}
+
+#forget {
+    background-color: #dc3545; /* Màu đỏ */
+}
+
+.sign_up_with {
+    margin-top: 20px; /* Khoảng cách */
+}
+
+#sign_up_with li {
+    display: inline;
+    margin: 0 5px; 
+}
+
+#sign_up_with_icon1,
+#sign_up_with_icon2 {
+    font-size: 20px; 
+    color: #333;
+}

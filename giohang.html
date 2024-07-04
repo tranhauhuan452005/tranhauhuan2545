@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e554e2698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./giohang.css">
+    <link rel="icon" type="image/png" href="./iconlogo.png"/>
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <body>
+        <div class="header">
+          <div class="header_logo">
+            <a href="./index.html">
+              <img src="./iconlogo.png" alt="logo"></a>
+          </div>
+          <div class="header_login">
+              <div class="login_text">
+              <span>
+                  <a href="./login.html">Đăng nhập </a>  
+                  hoặc  
+                  <a href="./signup.html"> Tạo tài khoản</a></br>
+              </span>
+              </div>
+              <div class="header_login_search">
+                <div>
+                  <input type="text" placeholder="Tìm kiếm sản phẩm"></div>
+                  <div class="xe">
+                  <a  href="#"> <i id="spcart" class="fas fa-shopping-cart" > </i></a> 
+              </div>
+              </div>
+               
+          </div>
+      </div>
+      <div class="navigation">
+          <ul id="nav">
+              <li><a href="">ÁO</a>
+                  <ul class="subnav">
+                      <li><a href="./ao.html">Áo kiểu</a></li>
+                      <li><a href="./aothun.html">Áo thun</a></li>
+                  </ul>
+              </li>
+              <li><a href="">QUẦN</a>
+                  <ul class="subnav">
+                      <li><a href="./quanjeans.html">Quần jeans</a></li>
+                  </ul>
+              </li>
+              <li><a href="">GIỚI THIỆU</a></li>
+          <li><a href="">LIÊN HỆ</a></li>
+          </ul>
+      </div>
+      <div class="slider">
+        <div class="slider_img">       
+            <img src="./cart_banner.png" >  
+        </div>
+    </div>
+
+<!--cart-->
+<div class="modal-body">
+  <div class="cart-row">
+      <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+      <span class="cart-price cart-header cart-column">Giá</span>
+      <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+  </div>
+  <div class="cart-items">
+      <div class="cart-row">
+      <div class="cart-item cart-column">
+          <img class="cart-item-image" src="./damhoa.jpg" width="100" height="100">
+          <span class="cart-item-title">Đầm Hoa</span>
+      </div>
+      <span class="cart-price cart-column">105 000đ</span>
+      <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="1">
+          <button class="btn btn-danger" type="button">Xóa</button>
+      </div>
+  </div>
+  <div class="cart-row">
+      <div class="cart-item cart-column">
+          <img class="cart-item-image" src="./quanbaggy.jpg" width="100" height="100">
+          <span class="cart-item-title">Quần Bagy</span>
+      </div>
+      <span class="cart-price cart-column">190 000đ</span>
+      <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="2">
+          <button class="btn btn-danger" type="button">Xóa</button>
+      </div>
+  </div>
+  <div class="cart-total">
+      <strong class="cart-total-title">Tổng Cộng:</strong>
+      <span class="cart-total-price">295 000VNĐ</span>
+  </div>
+</div>
+</div>
+
+<!--footer-->
+      <div class="wrapper">
+        <div class="grid">
+        <div class="logofooter">
+          <img id="logo-footer" src="./logo footer.png">
+        </div>
+          <div class="footer0">
+           
+            Your style, your choice
+          </div>
+          <div class="footer1">
+            <h3>Kết nối với Huân Shop</h3>
+            <ul class="inline-list social-icons">
+              <li>
+                <a
+                  class="icon-fallback-text"
+                  href="#"
+                  title="Thương hiệu thời trang on Facebook"
+                >
+                  <span class="icon icon-facebook" aria-hidden="true"></span>
+                  <span class="fallback-text"><i id="fb" class="fab fa-facebook-f"></i></span>
+                </a>
+              </li>         
+  
+              <li>
+                <a
+                  class="icon-fallback-text"
+                  href="#"
+                  title="Thương hiệu thời trang on Instagram"
+                >
+                  <span class="icon icon-tiktok" aria-hidden="true"></span>
+                  <span class="fallback-text"><i id="tiktok" class="fab fa-tiktok"></i></span>
+                </a>
+              </li>
+            </ul>
+          </ul>
+          <div class="footercontent1">
+            <ul class="list-ketnoi">
+            <li><i id="icon1_footerconten1" class="fas fa-phone"></i> 0384605878</li>
+            <li><i id="icon2_footerconten1" class="fas fa-map-marker-alt"></i> 26 Nguyễn Trực, Phú lãm, Hà Đông, Hà Nội </li>
+              <li><i id="icon3_footerconten1" class="far fa-paper-plane"></i> huantran085@gmail.com</li>
+              <li><i id="" class=""></i> Trần Hậu Huân: MSV: 1771020311</li>
+    </ul>
+        </div>
+         
+        </div>
+        <div class="footer2">
+          <h3>BẠN NÊN BIẾT</h3>
+        <div class="footercontent2">
+          <a href="#">Điều khoản chung</a><br />
+          <a href="#">Phương thức đặt hàng</a><br />
+          <a href="#">Thanh toán và giao nhận</a><br />
+          <a href="#">Chính sách đổi trả</a><br />
+          <a href="#">Chính sách bảo mật</a><br />
+          <a href="#">Câu hỏi thường gặp</a><br />
+        </div>
+        </div>
+          
+        </div>
+      </div>
+
+      <script src="./giohang.js"></script>
+    </body>
+</html>

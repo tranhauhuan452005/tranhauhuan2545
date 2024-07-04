@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Màu nền nhạt */
+}
+
+.sign_up {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 400px; /* Điều chỉnh độ rộng phù hợp */
+}
+
+h1 {
+    color: #333; /* Màu xám đậm cho tiêu đề */
+    margin-bottom: 15px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    width: calc(100% - 24px); /* Điều chỉnh độ rộng input */
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0; /* Thêm lề trên và dưới */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#backhome {
+    text-align: center;
+    display: block;
+    margin-top: 20px; /* Khoảng cách với nút đăng ký */
+    color: #333;
+}
+
+.form_icon li {
+    display: inline;
+    margin: 0 10px; /* Khoảng cách giữa các icon */
+}
+
+.form_icon a {
+    color: #333;
+}
+
+#gg {
+    color: #db4437; /* Màu đỏ của Google */
+}
+
+#fb {
+    color: #3b5998; /* Màu xanh của Facebook */
+}

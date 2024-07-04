@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/2e554e2698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./icon_web/VV.png"/>
+  
+    <title>Huân Shop</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_logo">
+          <img src="./iconlogo.png" alt="logo">
+      </div>
+      <div class="header_login">
+          <div class="login_text">
+          <span>
+              <a href="./login.html">Đăng nhập </a>  
+              hoặc  
+              <a href="./signup.html"> Tạo tài khoản</a></br>
+          </span>
+          </div>
+          <div class="header_login_search">
+            <div>
+              <input type="text" placeholder="Tìm kiếm sản phẩm"></div>
+              <div class="xe">
+              <a  href="./giohang.html"> <i id="spcart" class="fas fa-shopping-cart" > </i></a> 
+          </div>
+          </div>
+           
+      </div>
+  </div>
+  <div class="navigation">
+      <ul id="nav">
+          <li><a href="">ÁO</a>
+              <ul class="subnav">
+                  <li><a href="./ao.html">Áo kiểu</a></li>
+                  <li><a href="./aothun.html">Áo thun</a></li>
+              </ul>
+          </li>
+          <li><a href="">QUẦN</a>
+              <ul class="subnav">
+                  <li><a href="./quanjeans.html">Quần jeans</a></li>
+              </ul>
+          </li>
+          <li><a href="">GIỚI THIỆU</a></li>
+          <li><a href="">LIÊN HỆ</a></li>
+      </ul>
+  </div>
+  
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="./1.png" style="width:100%">     
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./2.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./3.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <div class="main">
+      <div class="title">
+        <p>SẢN PHẨM MỚI</p>
+      </div>
+      <p id="more">Xem thêm...</p>
+      <div class="alllist">
+        <div class="list1">
+          <div class="ao1">
+            <div>
+              <img onclick="togglePopup()" class="resize" src="./aothungaunau.jpg" />
+              <figcaption>Áo Thun Gấu Nâu<br /><br>139,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao2">
+            <div>
+              <img class="resize" src="./aodaymattrang.jpg" />
+              <figcaption>Áo Dây Mặt Trăng<br /><br>105,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao3">
+            <div>
+              <img class="resize" src="./damhoa.jpg" />
+              <figcaption>Đầm Hoa Cột Nơ Eo<br /><br>270,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao4">
+            <div>
+              <img class="resize" src="./aosomikieu.jpg" />
+              <figcaption>Sơ Mi Kiểu<br /><br>205,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao5">
+            <div>
+              <img class="resize" src="./aokhoaclen.jpg" />
+              <figcaption>Áo Khoác Len<br /><br>160,000đ</figcaption>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="title">
+          <p>SẢN PHẨM HOT</p>
+        </div>
+        <p id="more">Xem thêm...</p>
+        <div class="list2">
+          <div class="ao6">
+            <div>
+              <img class="resize" src="./quanbaggy.jpg" />
+              <figcaption>Quần baggy<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao7">
+            <div>
+              <img class="resize" src="./somicovest.jpg" />
+              <figcaption>Sơ mi cổ vest trái dứa<br /><br>165,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao8">
+            <div>
+              <img class="resize" src="./woolcoats.jpg" />
+              <figcaption>Wool Coats<br /><br>120,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao9">
+            <div>
+              <img class="resize" src="./cottonbaggy.jpg" />
+              <figcaption>Cotton Baggy Trousers<br /><br>205,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao10">
+            <div>
+              <img class="resize" src="./somitruyenthong.jpg" />
+              <figcaption>Sơ mi truyền thống<br /><br>165,000đ</figcaption>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="title">
+          <p>HÀNG MỚI VỀ</p>
+        </div>
+        <p id="more">Xem thêm...</p>
+        <div class="list3">
+          <div class="ao11">
+            <div>
+              <img class="resize" src="./baggyjeans.jpg" />
+              <figcaption>Baggy Jeans<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao12">
+            <div>
+              <img class="resize" src="./aokhoaclen.jpg" />
+              <figcaption>Áo Khoác Len<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao13">
+            <div>
+              <img class="resize" src="./somicaro.jpg" />
+              <figcaption>Sơ Mi Caro Dệt Nổi<br /><br>240,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao14">
+            <div>
+              <img class="resize" src="./linenshirt.jpg" />
+              <figcaption>Linen Shirt<br /><br>195,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao15">
+            <div>
+              <img class="resize" src="./edging.jpg" />
+              <figcaption>Edging Jacket<br /><br>160,000đ</figcaption> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-1">
+      <div class="overplay"></div>
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <div class="content_left">
+          <img src="./aothungaunau.jpg" alt="">
+        </div>
+        <div class="content_right">    
+           <h1>Áo Thun Gấu Nâu</h1>
+           <h1>139,000đ</h1><br>
+           <p>Áo Thun được thiết kế in hình gấu nâu tạo điểm nhấn.</p>
+            <p> <i class="fas fa-location-arrow"></i> Chất liệu: Thun Cotton</p>
+            <p><i class="fas fa-location-arrow"></i> Form dáng: Croptop & Freesize</p>
+            <p><i class="fas fa-location-arrow"></i> Màu sắc:
+              <select class="chon">
+              <option value="Trắng">Trắng</option>
+              <option value="Xám">Xám</option>         
+              </select></p>
+            <p><i class="fas fa-location-arrow"></i> Sản xuất: Việt Nam.</p> 
+    
+         
+        </div>
+        
+        
+        
+        <button>Thêm vào giỏ hàng</button>
+      </div>
+    
+      </div>
+
+  </div>
+
+    <div class="wrapper">
+      <div class="grid">
+      <div class="logofooter">
+        <img id="logo-footer" src="./logo footer.png">
+      </div>
+        <div class="footer0">
+         
+          Your style, your choice
+        </div>
+        <div class="footer1">
+          <h3>Kết nối với Huân Shop</h3>
+          <ul class="inline-list social-icons">
+            <li>
+              <a
+                class="icon-fallback-text"
+                href="#"
+                title="Thương hiệu thời trang on Facebook"
+              >
+                <span class="icon icon-facebook" aria-hidden="true"></span>
+                <span class="fallback-text"><i id="fb" class="fab fa-facebook-f"></i></span>
+              </a>
+            </li>         
+
+            <li>
+              <a
+                class="icon-fallback-text"
+                href="#"
+                title="Thương hiệu thời trang on Instagram"
+              >
+                <span class="icon icon-tiktok" aria-hidden="true"></span>
+                <span class="fallback-text"><i id="tiktok" class="fab fa-tiktok"></i></span>
+              </a>
+            </li>
+          </ul>
+          <div class="footercontent1">
+            <ul class="list-ketnoi">
+            <li><i id="icon1_footerconten1" class="fas fa-phone"></i> 0384605878</li>
+            <li><i id="icon2_footerconten1" class="fas fa-map-marker-alt"></i> 26 Nguyễn Trực, Phú lãm, Hà Đông, Hà Nội </li>
+              <li><i id="icon3_footerconten1" class="far fa-paper-plane"></i> huantran085@gmail.com</li>
+              <li><i id="" class=""></i> Trần Hậu Huân: MSV: 1771020311</li> 
+             
+    </ul>
+        </div>
+         
+        </div>
+        <div class="footer2">
+          <h3>BẠN NÊN BIẾT</h3>
+        <div class="footercontent2">
+          <a href="#">Điều khoản chung</a><br />
+          <a href="#">Phương thức đặt hàng</a><br />
+          <a href="#">Thanh toán và giao nhận</a><br />
+          <a href="#">Chính sách đổi trả</a><br />
+          <a href="#">Chính sách bảo mật</a><br />
+          <a href="#">Câu hỏi thường gặp</a><br />
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
